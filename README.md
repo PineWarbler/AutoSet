@@ -9,9 +9,9 @@ Read the rules of Set® [here](https://en.wikipedia.org/wiki/Set_(card_game)).
 -   a heads-up display to show the found sets to the operator
 
 ## Detection Models
-Four separate classification [models](detection models/trained models/) for classifying a card's number, shade, color, and shape trained using the included [training images](/model training dataset).
+Four separate classification [models](detection_models/trained models/) for classifying a card's number, shade, color, and shape trained using the included [training images](/model training dataset).
 Each model is approximately 98% accurate and was trained using [Tensorflow](https://www.tensorflow.org/).
-Please consult the [CNN model trainer](detection_models/CNN model trainer.py) to view the model architecture and other training parameters.
+Please consult the [CNN model trainer](detection_models/CNN_model_trainer.py) to view the model architecture and other training parameters.
 
 ## Training Images
 Includes 486 RGB images of single cards (six samples of each of 81 unique cards) with varying exposure, color temperature, and orientation.
@@ -31,3 +31,4 @@ With this accuracy, many of the sets found by the program are likely to be incor
 ## License
 
 [The GNU General Public License v3.0](LICENSE) Copyright © 2021 Peter Reynolds
+
