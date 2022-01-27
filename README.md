@@ -1,3 +1,4 @@
+put underscores in file names instead of spaces!
 # AutoSet
 ## **AutoSet** is a computer vision program that plays the card game Set® (a pattern recognition game)
 
@@ -9,7 +10,7 @@ Read the rules of Set® [here](https://en.wikipedia.org/wiki/Set_(card_game)).
 -   a heads-up display to show the found sets to the operator
 
 ## Detection Models
-Four separate classification [models](detection_models/trained models/) for classifying a card's number, shade, color, and shape trained using the included [training images](/model training dataset).
+Four separate classification [models](detection_models/trained_models/) for classifying a card's number, shade, color, and shape trained using the included training images.
 Each model is approximately 98% accurate and was trained using [Tensorflow](https://www.tensorflow.org/).
 Please consult the [CNN model trainer](detection_models/CNN_model_trainer.py) to view the model architecture and other training parameters.
 
@@ -31,4 +32,3 @@ With this accuracy, many of the sets found by the program are likely to be incor
 ## License
 
 [The GNU General Public License v3.0](LICENSE) Copyright © 2021 Peter Reynolds
-
