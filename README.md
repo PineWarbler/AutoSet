@@ -1,8 +1,7 @@
-put underscores in file names instead of spaces!
 # AutoSet
 ## **AutoSet** is a computer vision program that plays the card game Set® (a pattern recognition game)
 
-Read the rules of Set® [here](https://en.wikipedia.org/wiki/Set_(card_game)).
+### Read the rules of Set® [here](https://en.wikipedia.org/wiki/Set_(card_game)).
 
 ## Features:
 -   custom-trained convolutional neural network models that classify each visible card according to its number, color, shade, and shape
